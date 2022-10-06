@@ -1,17 +1,9 @@
 import type { NextPage } from 'next'
-
-function Botao(props){
-  return <a href="#">{props.titulo}</a>
-}
+import Cabecalho from '../src/components/Cabecalho/Cabecalho'
 
 const Home: NextPage = () => {
   return (
-    <div>
-      <Botao titulo="Click" /> <br />
-      <Botao titulo="Entrar" /> <br />
-      <Botao titulo="Ver" /> <br />
-      <Botao titulo="Ver Mais" /> <br />
-    </div>
+    <Cabecalho></Cabecalho>
   )
 }
 
